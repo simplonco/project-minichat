@@ -19,7 +19,7 @@ That's a chat, let people discuss together, of course.
 
 ## Design
 
-Here few advices and tricks to help you to work together on the same project code :
+Here few advices and tricks to help you to work together on the same project code!
 
 First work together on global design, next split the team, between for example Backend and Frontend developers, the good idea is to use demo function, e.g. :
 
@@ -30,12 +30,28 @@ var sendMessage = function (message) {
 
 var retreiveMessages = function () {
     var messages = [
-        { pseudo: "Romeo", message : "Ô Roméo ! Roméo ! pourquoi es-tu Roméo ? Renie ton père et abdique ton nom ; ou, si tu ne le veux pas, jure de m’aimer, et je ne serai plus une Capulet." },
+        { pseudo: "Roméo", message : "Ô Roméo ! Roméo ! pourquoi es-tu Roméo ? Renie ton père et abdique ton nom ; ou, si tu ne le veux pas, jure de m’aimer, et je ne serai plus une Capulet." },
         { pseudo: "Juliette", message : "Dois-je l’écouter encore ou lui répondre ?" }
     ];
     console.log("DEMO: retreiveMessages :" + messages);
     return messages;
 };
+```
+
+The purpose is to start to code the interface and test using these function and in the same time another person in the team can work on the function to make them work with real data.
+
+Here is the Javascript code example give on the official Firebase website:
+
+```javascript
+// Create a connection to your Firebase database
+var ref = new Firebase("https://<YOUR-FIREBASE-APP>.firebaseio.com");
+// Save data
+ref.set({ name: "Alex Wolfe" });
+// Listen for realtime changes
+ref.on("value", function(data) {
+    var name = data.val().name;
+    alert("My name is " + name);
+});
 ```
 
 ## Ressources
