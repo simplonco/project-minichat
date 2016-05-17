@@ -13,16 +13,16 @@ Et enfin, vous aurez la liberté totale d'utiliser des plugins ou frameworks (ex
 ## Spécifications fonctionnelle
 
 * Version française : https://docs.google.com/document/d/1ST1VZgpuEF_Qf739yo94eT_SmayzB5BYdifCaCYbIlU
-* version anglaise : https://docs.google.com/document/d/1T89SeKvqGPbgxmVAB4wYddXtoJqpFpFtnhowg9DJ3OA
+* Version anglaise : https://docs.google.com/document/d/1T89SeKvqGPbgxmVAB4wYddXtoJqpFpFtnhowg9DJ3OA
 
 ## Caractéristiques
 
 C'est un t'chat, vous devez bien sûr laisser les gens discuter ensemble :
 
-* Tout d'abord faire un grand canal global, et après permettre à d'autres canaux comme des discussions privées;
-* Permettre aux utilisateurs de choisir un pseudo et peut-être définir un avater => <https://fr.gravatar.com/>;
-* Que les gens envoient Emoji Smiley, Liens, Photos, Vidéos Youtube, Tags d'utilisateurs, etc .. (vous allez utiliser `REGEX`);
-* Faire tout est superbe et ne pas oublier l'application doivent être sensibles, pensez à la façon dont il se penchera sur les appareils mobiles!
+* Tout d'abord créer un grand canal global, puis autoriser d'autres canaux comme des discussions privées;
+* Permettre aux utilisateurs de choisir un pseudo et peut-être de définir un avatar (vous pouvez utiliser <https://fr.gravatar.com/>) ;
+* Que les gens puissent s'envoyer des Smileys Emoji, Liens, Photos, Vidéos Youtubes, Tags d'utilisateurs, etc.. (vous devrez utiliser les `REGEX`) ;
+* Rendre tout cela joli (avec plein de `CSS`) et ne pas oublier que l'application doit être reponsive, pensez à la façon dont elle s'affichera sur les appareils mobiles !
 
 ## Conception
 
