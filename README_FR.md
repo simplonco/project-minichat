@@ -28,38 +28,38 @@ Voici quelques conseils et astuces pour vous aider à travailler ensemble sur le
 
 Tout d'abord travailler avec toute l'équipe sur le design global, à côté divisé l'équipe, entre par exemple Backend et Frontend développeurs, la bonne idée est d'utiliser la fonction de démonstration, e.g .:
 
-`` `Javascript
-/ * FONCTIONS DEMO * /
+```javascript
+/* DEMO FUNCTIONS */
 
 var sendMessage = function (message) {
-    console.log ( "DEMO: sendMessage:" message);
+    console.log("DEMO: sendMessage: " + message);
 };
 
-retreiveMessages var = function () {
-    messages var = [
-        {Pseudo: "Roméo", un message: "Ô Roméo Roméo Pourquoi pas es-tu Roméo Renie ton père et abdique ton nom; ou, Si Tu Ne Le Veux Pas, jure de me aimer, et je ne serai plus de juin!? Capulet. " },
-        {Pseudo: "Juliette", le message: "Dois-je l'écouter encore ous lui Répondre" }
+var retreiveMessages = function () {
+    var messages = [
+        { pseudo: "Roméo", message : "Ô Roméo ! Roméo ! pourquoi es-tu Roméo ? Renie ton père et abdique ton nom ; ou, si tu ne le veux pas, jure de m’aimer, et je ne serai plus une Capulet." },
+        { pseudo: "Juliette", message : "Dois-je l’écouter encore ou lui répondre ?" }
     ];
-    CONSOLE.LOG ( «DEMO: retreiveMessages:" messages);
-    retourner des messages;
+    console.log("DEMO: retreiveMessages :" + messages);
+    return messages;
 };
-`` `
+```
 
 Le but est de commencer à coder l'interface et de tester l'utilisation de ces fonctions et ** dans le même temps ** un autre membre de l'équipe peut travailler sur la fonction pour les faire fonctionner avec des données réelles.
 
 Voici le `exemple de code Javascript` donnent sur le` site officiel Firebase`:
 
-`` `Javascript
-// Création d'une connexion à votre base de données Firebase
-var ref = new Firebase ( "https: // <YOUR-Firebase-APP> .firebaseio.com");
-// Enregistrer des données
-ref.set ({name: "Alex Wolfe"});
-// Écouter des changements en temps réel
-ref.on ( "valeur", function (data) {
-    var name = data.val () Nom.
-    alert ( "Mon nom est" nom);
+```javascript
+// Create a connection to your Firebase database
+var ref = new Firebase("https://<YOUR-FIREBASE-APP>.firebaseio.com");
+// Save data
+ref.set({ name: "Alex Wolfe" });
+// Listen for realtime changes
+ref.on("value", function(data) {
+    var name = data.val().name;
+    alert("My name is " + name);
 });
-`` `
+```
 
 Firebase ont une conception de mise à jour en temps réel, de sorte que vous pouvez Remplace la fonction `retreiveMessages` par juste une fonction` updateConversation` nous mettrons à jour le contenu de la conversation et sera appelé dans la méthode `ref.on`, et bien sûr` sendMessage `` utilisera ref.set`.
 
