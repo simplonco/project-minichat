@@ -29,6 +29,8 @@ Here few advices and tricks to help you to work together on the same project cod
 First work with whole team on global design, next split the team, between for example Backend and Frontend developers, the good idea is to use demo function, e.g.:
 
 ```javascript
+/* DEMO FUNCTIONS */
+
 var sendMessage = function (message) {
     console.log("DEMO: sendMessage: " + message);
 };
