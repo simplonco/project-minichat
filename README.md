@@ -2,7 +2,7 @@
 
 ![Cutie Cutie](http://static.pratique.fr/images/unsized/ch/chat-propre.jpg)
 
-The project is a **Chat Web App**, groups will be set _randomly_, you will use `Firebase` <https://www.firebase.com/> (a Remote Database based on `AJAX` Technology) and some CSS Preprocessors `Less` <http://lesscss.org/> & `Sass` <http://sass-lang.com/> !
+The project is a **Chat Web App**, groups will be set _randomly_, you will use [Firebase](https://www.firebase.com/) (a Remote Database based on `AJAX` Technology) and some CSS Preprocessors [Less](http://lesscss.org/) & [Sass](http://sass-lang.com/) !
 
 What you need, is what you already learn : `HTML`, `CSS`, `Bootstrap`, `JS` and `jQUery` !
 
