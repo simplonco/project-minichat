@@ -1,4 +1,4 @@
-# Projet T'Chat
+# Projet de T'Chat
 
 ![Cutie Cutie <3 !](kitten.jpg)
 
@@ -10,10 +10,10 @@ Le premier jour, vous aller vous concentrer sur l'interface et l'expérience uti
 
 Et enfin, vous aurez la liberté totale d'utiliser des plugins ou frameworks (ex : [Bootstrap](http://getbootstrap.com/) ou [Foundation](http://foundation.zurb.com/) ou [Material Design Light](https://getmdl.io/)).
 
-## Spécifications fonctionnelle
+## Spécifications fonctionnelles
 
-* Version française : https://docs.google.com/document/d/1ST1VZgpuEF_Qf739yo94eT_SmayzB5BYdifCaCYbIlU
-* Version anglaise : https://docs.google.com/document/d/1T89SeKvqGPbgxmVAB4wYddXtoJqpFpFtnhowg9DJ3OA
+* [Version française](https://docs.google.com/document/d/1ST1VZgpuEF_Qf739yo94eT_SmayzB5BYdifCaCYbIlU)
+* [Version anglaise](https://docs.google.com/document/d/1T89SeKvqGPbgxmVAB4wYddXtoJqpFpFtnhowg9DJ3OA)
 
 ## Caractéristiques
 
