@@ -20,7 +20,7 @@ Et enfin, vous aurez la liberté totale d'utiliser des plugins ou frameworks (ex
 C'est un t'chat, vous devez bien sûr laisser les gens discuter ensemble :
 
 * Tout d'abord créer un grand canal global, puis autoriser d'autres canaux comme des discussions privées;
-* Permettre aux utilisateurs de choisir un pseudo et peut-être de définir un avatar (vous pouvez utiliser <https://fr.gravatar.com/>) ;
+* Permettre aux utilisateurs de choisir un pseudo et peut-être de définir un avatar (vous pouvez utiliser [Gravatar](https://fr.gravatar.com/)) ;
 * Que les gens puissent s'envoyer des Smileys Emoji, Liens, Photos, Vidéos Youtubes, Tags d'utilisateurs, etc.. (vous devrez utiliser les `REGEX`) ;
 * Rendre tout cela joli (avec plein de `CSS`) et ne pas oublier que l'application doit être reponsive, pensez à la façon dont elle s'affichera sur les appareils mobiles !
 
@@ -69,12 +69,12 @@ Firebase est conçu avec un système de mise à jour en temps réel, de sorte qu
 
 **REGEX (Expressions Rationelles)**
 
-* <https://en.wikipedia.org/wiki/Regular_expression>!
+* <https://fr.wikipedia.org/wiki/Expression_rationnelle>
 * Vous pouvez les tester en ligne avec <https://regex101.com/> & <http://regexr.com/>
 * Et pratiquer un peu ici: <https://www.hackerrank.com/domains/regex/>
 
 **AJAX**
 
-* <https://en.wikipedia.org/wiki/Ajax_%28programming%29>!
+* <https://fr.wikipedia.org/wiki/Ajax_(informatique)>
 * Vous pouvez lire les pages de la documentation officielle jQuery <https://api.jquery.com/jquery.get/> & <http://api.jquery.com/jquery.ajax/>
 * Et un peu de OpenClassrooms <https://openclassrooms.com/courses/simplifiez-vos-developpements-javascript-avec-jquery/premiers-pas-avec-ajax> & <Https://openclassrooms.com/courses/un-site-web-dynamique-avec-jquery/le-fonctionnement-de-ajax>
