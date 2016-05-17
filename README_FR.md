@@ -21,7 +21,7 @@ C'est un t'chat, vous devez bien sûr laisser les gens discuter ensemble :
 
 * Tout d'abord créer un grand canal global, puis autoriser d'autres canaux comme des discussions privées;
 * Permettre aux utilisateurs de choisir un pseudo et peut-être de définir un avatar (vous pouvez utiliser [Gravatar](https://fr.gravatar.com/)) ;
-* Que les gens puissent s'envoyer des Smileys Emoji, Liens, Photos, Vidéos Youtubes, Tags d'utilisateurs, etc.. (vous devrez utiliser les `REGEX`) ;
+* Que les gens puissent s'envoyer des _Smileys Emoji_, _Liens_, _Photos_, _Vidéos Youtubes_, _Tags d'utilisateurs_, etc.. (vous devrez utiliser les `REGEX`) ;
 * Rendre tout cela joli (avec plein de `CSS`) et ne pas oublier que l'application doit être reponsive, pensez à la façon dont elle s'affichera sur les appareils mobiles !
 
 ## Conception
@@ -72,6 +72,8 @@ Firebase est conçu avec un système de mise à jour en temps réel, de sorte qu
 * <https://fr.wikipedia.org/wiki/Expression_rationnelle>
 * Vous pouvez les tester en ligne avec <https://regex101.com/> & <http://regexr.com/>
 * Et pratiquer un peu ici: <https://www.hackerrank.com/domains/regex/>
+
+Par exemple : `:smile_cat:` va être remplacer par `<img src="graphics/emojis/smile_cat.png">`.
 
 **AJAX**
 
