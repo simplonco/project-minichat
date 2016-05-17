@@ -61,6 +61,8 @@ ref.on("value", function(data) {
 });
 ```
 
+Firebase have a realtime update design, so you can remplace the `retreiveMessages` function by just an `updateConversation` function we will update the content of the conversation and will be call in the ``ref.on` method, and of course `sendMessage` will use `ref.set`.
+
 ## Ressources
 
 **REGEX (REGular EXpressions)**
