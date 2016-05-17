@@ -2,13 +2,13 @@
 
 ![Cutie Cutie](http://static.pratique.fr/images/unsized/ch/chat-propre.jpg)
 
-The project is a **Chat Web App**, groups will be set _randomly_, you will use <https://www.firebase.com/> (a Remote Database) and some CSS Preprocessors <http://lesscss.org/> & <http://sass-lang.com/> !
+The project is a **Chat Web App**, groups will be set _randomly_, you will use <https://www.firebase.com/> (a Remote Database based on `AJAX` Technology) and some CSS Preprocessors <http://lesscss.org/> & <http://sass-lang.com/> !
 
 First day, you will focus on the UX / UI Design of the app, and write some specifications (few mockup tools <http://mashable.com/2012/06/07/mockup-tools/>).
 
 And finally you will have the total freedom to use plugins or framework (e.g.: <http://getbootstrap.com/> or <http://foundation.zurb.com/> or <https://getmdl.io/>).
 
-## Specifications
+## Specifications Templates
 
 * FR: https://docs.google.com/document/d/1ST1VZgpuEF_Qf739yo94eT_SmayzB5BYdifCaCYbIlU
 * EN: https://docs.google.com/document/d/1T89SeKvqGPbgxmVAB4wYddXtoJqpFpFtnhowg9DJ3OA
