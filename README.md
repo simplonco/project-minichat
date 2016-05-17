@@ -73,6 +73,8 @@ Firebase have a realtime update design, so you can remplace the `retreiveMessage
 * You can check it online with <https://regex101.com/> & <http://regexr.com/>
 * and practice a bit here: <https://www.hackerrank.com/domains/regex/>
 
+For example : `:smile_cat:` will be replace by `<img src="graphics/emojis/smile_cat.png">`.
+
 **AJAX**
 
 * <https://en.wikipedia.org/wiki/Ajax_%28programming%29>
