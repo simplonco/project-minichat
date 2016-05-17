@@ -6,9 +6,12 @@ The project is a **Chat Web App**, groups will be set _randomly_, you will use <
 
 First day, you will focus on the UX / UI Design of the app, and write some specifications (few mockup tools <http://mashable.com/2012/06/07/mockup-tools/>).
 
-_=> LINK TO PERRINE TEMPLATE_
-
 And finally you will have the total freedom to use plugins or framework (e.g.: <http://getbootstrap.com/> or <http://foundation.zurb.com/> or <https://getmdl.io/>).
+
+## Specifications
+
+* FR: https://docs.google.com/document/d/1ST1VZgpuEF_Qf739yo94eT_SmayzB5BYdifCaCYbIlU
+* EN: https://docs.google.com/document/d/1T89SeKvqGPbgxmVAB4wYddXtoJqpFpFtnhowg9DJ3OA
 
 ## Features
 
