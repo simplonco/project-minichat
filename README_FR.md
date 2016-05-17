@@ -8,12 +8,12 @@ Ce dont vous avez besoin, c'est ce que vous avez déjà appris : `HTML`, `CSS`, 
 
 Le premier jour, vous aller vous concentrer sur l'interface et l'expérience utilisateur de l'application, et écrire un cahier des charges / spécifications fonctionnelles (quelques outils pour créer vos mockups <http://mashable.com/2012/06/07/mockup-tools/>).
 
-Et enfin, vous aurez la liberté totale d'utiliser des plugins ou frameworks (par exemple: <http://getbootstrap.com/> ou <http://foundation.zurb.com/> ou <https://getmdl.io/> ).
+Et enfin, vous aurez la liberté totale d'utiliser des plugins ou frameworks (ex : [Bootstrap](http://getbootstrap.com/) ou [Foundation](http://foundation.zurb.com/) ou [Material Design Light](https://getmdl.io/)).
 
 ## Spécifications fonctionnelle
 
-* FR: https://docs.google.com/document/d/1ST1VZgpuEF_Qf739yo94eT_SmayzB5BYdifCaCYbIlU
-* EN: https://docs.google.com/document/d/1T89SeKvqGPbgxmVAB4wYddXtoJqpFpFtnhowg9DJ3OA
+* Version française : https://docs.google.com/document/d/1ST1VZgpuEF_Qf739yo94eT_SmayzB5BYdifCaCYbIlU
+* version anglaise : https://docs.google.com/document/d/1T89SeKvqGPbgxmVAB4wYddXtoJqpFpFtnhowg9DJ3OA
 
 ## Caractéristiques
 
@@ -26,7 +26,7 @@ C'est un t'chat, vous devez bien sûr laisser les gens discuter ensemble :
 
 ## Conception
 
-Voici quelques conseils et astuces pour vous aider à travailler ensemble sur le même code de projet.
+Voici quelques conseils et astuces pour vous aider à travailler ensemble sur le même code.
 
 Tout d'abord travailler avec toute l'équipe sur le design global, à côté divisé l'équipe, entre par exemple Backend et Frontend développeurs, la bonne idée est d'utiliser la fonction de démonstration, e.g .:
 
