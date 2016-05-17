@@ -1,21 +1,21 @@
-Chatter Project #
+# Projet T'Chat
 
-! [Cutie Cutie] (http://static.pratique.fr/images/unsized/ch/chat-propre.jpg)
+![Cutie Cutie](http://static.pratique.fr/images/unsized/ch/chat-propre.jpg)
 
-Le projet est un Web Chat ** App **, des groupes sera mis _randomly_, vous allez utiliser <https://www.firebase.com/> (une base de données à distance sur la base de `AJAX` Technology) et certains CSS Préprocesseurs <http : //lesscss.org/> & <http://sass-lang.com/>!
+Le projet est une **application Web de T'Chat**, les groupes seront définis _aléatoirements_, vous allez utiliser <https://www.firebase.com/> (une base de données à distance sur basé sur la technologie `AJAX`) et certains Préprocesseurs CSS <http://lesscss.org/> & <http://sass-lang.com/>!
 
-Premier jour, vous allez vous concentrer sur le UX / UI Design de l'application, et écrire des spécifications (quelques outils facettisés <http://mashable.com/2012/06/07/mockup-tools/>).
+Le premier jour, vous aller vous concentrer sur l'interface et l'expérience utilisateur de l'application, et écrire un cahier des charges / spécifications fonctionnelles (quelques outils pour créer vos mockups <http://mashable.com/2012/06/07/mockup-tools/>).
 
-Et enfin, vous aurez la liberté totale d'utiliser des plugins ou cadre (par exemple: <http://getbootstrap.com/> ou <http://foundation.zurb.com/> ou <https://getmdl.io/> ).
+Et enfin, vous aurez la liberté totale d'utiliser des plugins ou frameworks (par exemple: <http://getbootstrap.com/> ou <http://foundation.zurb.com/> ou <https://getmdl.io/> ).
 
-## Spécifications Modèles
+## Spécifications fonctionnelle
 
 * FR: https://docs.google.com/document/d/1ST1VZgpuEF_Qf739yo94eT_SmayzB5BYdifCaCYbIlU
 * EN: https://docs.google.com/document/d/1T89SeKvqGPbgxmVAB4wYddXtoJqpFpFtnhowg9DJ3OA
 
 ## Caractéristiques
 
-C'est un chat, vous devez laisser les gens discutent ensemble, bien sûr:
+C'est un t'chat, vous devez bien sûr laisser les gens discuter ensemble :
 
 * Tout d'abord faire un grand canal global, et après permettre à d'autres canaux comme des discussions privées;
 * Permettre aux utilisateurs de choisir un pseudo et peut-être définir un avater => <https://fr.gravatar.com/>;
