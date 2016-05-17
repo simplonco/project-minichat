@@ -10,15 +10,15 @@ And finally you will have the total freedom to use plugins or framework (e.g.: <
 
 ## Specifications Templates
 
-* :fr: https://docs.google.com/document/d/1ST1VZgpuEF_Qf739yo94eT_SmayzB5BYdifCaCYbIlU
-* :uk: https://docs.google.com/document/d/1T89SeKvqGPbgxmVAB4wYddXtoJqpFpFtnhowg9DJ3OA
+* French version: https://docs.google.com/document/d/1ST1VZgpuEF_Qf739yo94eT_SmayzB5BYdifCaCYbIlU
+* English version: https://docs.google.com/document/d/1T89SeKvqGPbgxmVAB4wYddXtoJqpFpFtnhowg9DJ3OA
 
 ## Features
 
 That's a chat, you have to let people discuss together, of course:
 
 * First make one big global channel, and after allow other channels like private discussions ;
-* Let users choose a pseudo and maybe defined an avater => <https://fr.gravatar.com/> ;
+* Let users choose a pseudo and maybe defined an avatar (check <https://fr.gravatar.com/>) ;
 * Let people send Emoji Smiley, Links, Pictures, Youtube Videos, User Tags, etc.. (you will use `REGEX`) ;
 * Make everything looks great and don't forget the app have to be responsive, think about how it will look on mobile devices!
 
