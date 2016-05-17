@@ -65,14 +65,14 @@ Firebase ont une conception de mise à jour en temps réel, de sorte que vous po
 
 ## Ressources
 
-** REGEX (Expressions Régulières) **
+**REGEX (Expressions Rationelles)**
 
-* <Https://en.wikipedia.org/wiki/Regular_expression>!
-* Vous pouvez le vérifier en ligne avec <https://regex101.com/> & <http://regexr.com/>
-* Et de pratiquer un peu ici: <https://www.hackerrank.com/domains/regex/>
+* <https://en.wikipedia.org/wiki/Regular_expression>!
+* Vous pouvez les vérifier en ligne avec <https://regex101.com/> & <http://regexr.com/>
+* Et pratiquer un peu ici: <https://www.hackerrank.com/domains/regex/>
 
-** AJAX **
+**AJAX**
 
-* <Https://en.wikipedia.org/wiki/Ajax_%28programming%29>!
-* Vous pouvez lire la documentation officielle jQuery <https://api.jquery.com/jquery.get/> & <http://api.jquery.com/jquery.ajax/>
+* <https://en.wikipedia.org/wiki/Ajax_%28programming%29>!
+* Vous pouvez lire les pages de la documentation officielle jQuery <https://api.jquery.com/jquery.get/> & <http://api.jquery.com/jquery.ajax/>
 * Et un peu de OpenClassrooms <https://openclassrooms.com/courses/simplifiez-vos-developpements-javascript-avec-jquery/premiers-pas-avec-ajax> & <Https://openclassrooms.com/courses/un-site-web-dynamique-avec-jquery/le-fonctionnement-de-ajax>
