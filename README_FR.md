@@ -2,7 +2,9 @@
 
 ![Cutie Cutie](http://static.pratique.fr/images/unsized/ch/chat-propre.jpg)
 
-Le projet est une **application Web de T'Chat**, les groupes seront définis _aléatoirements_, vous allez utiliser <https://www.firebase.com/> (une base de données à distance sur basé sur la technologie `AJAX`) et certains Préprocesseurs CSS <http://lesscss.org/> & <http://sass-lang.com/>!
+Le projet est une **application Web de T'Chat**, les groupes seront définis _aléatoirements_, vous allez utiliser [Firebase](https://www.firebase.com/) (une base de données à distance basée sur la technologie `AJAX`) et certains Préprocesseurs CSS : [Less](http://lesscss.org/) & [Sass](http://sass-lang.com/) !
+
+Ce dont vous avez besoin, c'est ce que vous avez déjà appris : `HTML`, `CSS`, `Bootstrap`, `JS` et `jQuery` !
 
 Le premier jour, vous aller vous concentrer sur l'interface et l'expérience utilisateur de l'application, et écrire un cahier des charges / spécifications fonctionnelles (quelques outils pour créer vos mockups <http://mashable.com/2012/06/07/mockup-tools/>).
 
