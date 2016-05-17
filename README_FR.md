@@ -28,7 +28,7 @@ C'est un t'chat, vous devez bien sûr laisser les gens discuter ensemble :
 
 Voici quelques conseils et astuces pour vous aider à travailler ensemble sur le même code.
 
-Tout d'abord travailler avec toute l'équipe sur le design global, à côté divisé l'équipe, entre par exemple Backend et Frontend développeurs, la bonne idée est d'utiliser la fonction de démonstration, e.g .:
+Tout d'abord travailler avec toute l'équipe sur la conception globale de l'application, puis séparer l'équipe, entre par exemple des développeurs Backend et Frontend, une bonne idée est d'utiliser des fonctions de démonstration, par exemple :
 
 ```javascript
 /* DEMO FUNCTIONS */
@@ -47,7 +47,7 @@ var retreiveMessages = function () {
 };
 ```
 
-Le but est de commencer à coder l'interface et de tester l'utilisation de ces fonctions et ** dans le même temps ** un autre membre de l'équipe peut travailler sur la fonction pour les faire fonctionner avec des données réelles.
+Le but est de commencer à coder l'interface et de tester l'utilisation de ces fonctions et **dans le même temps** un autre membre de l'équipe peut travailler sur les fonctions pour les faire fonctionner avec des données réelles.
 
 Voici le code d'exemple `Javascript` donné sur le site officiel de `Firebase` :
 
