@@ -12,8 +12,8 @@ And finally you will have the total freedom to use plugins or framework (e.g.: [
 
 ## Specifications Templates
 
-* French version: https://docs.google.com/document/d/1ST1VZgpuEF_Qf739yo94eT_SmayzB5BYdifCaCYbIlU
-* English version: https://docs.google.com/document/d/1T89SeKvqGPbgxmVAB4wYddXtoJqpFpFtnhowg9DJ3OA
+* [French version](https://docs.google.com/document/d/1ST1VZgpuEF_Qf739yo94eT_SmayzB5BYdifCaCYbIlU)
+* [English version](https://docs.google.com/document/d/1T89SeKvqGPbgxmVAB4wYddXtoJqpFpFtnhowg9DJ3OA)
 
 ## Features
 
@@ -73,7 +73,7 @@ Firebase have a realtime update design, so you can remplace the `retreiveMessage
 * You can check it online with <https://regex101.com/> & <http://regexr.com/>
 * and practice a bit here: <https://www.hackerrank.com/domains/regex/>
 
-For example : `:smile_cat:` will be replace by `<img src="graphics/emojis/smile_cat.png">`.
+For example: `:smile_cat:` will be replace by `<img src="graphics/emojis/smile_cat.png">`.
 
 **AJAX**
 
