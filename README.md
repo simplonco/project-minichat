@@ -22,7 +22,7 @@ That's a chat, you have to let people discuss together, of course:
 * First make one big global channel, and after allow other channels like private discussions ;
 * Let users choose a pseudo and maybe defined an avatar (check <https://fr.gravatar.com/>) ;
 * Let people send Emoji Smiley, Links, Pictures, Youtube Videos, User Tags, etc.. (you will use `REGEX`) ;
-* Make everything looks great and don't forget the app have to be responsive, think about how it will look on mobile devices!
+* Make everything looks great (with a lot of `CSS`) and don't forget the app have to be responsive, think about how it will look on mobile devices!
 
 ## Design
 
