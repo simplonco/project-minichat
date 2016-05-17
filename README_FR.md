@@ -49,28 +49,28 @@ var retreiveMessages = function () {
 
 Le but est de commencer à coder l'interface et de tester l'utilisation de ces fonctions et ** dans le même temps ** un autre membre de l'équipe peut travailler sur la fonction pour les faire fonctionner avec des données réelles.
 
-Voici le `exemple de code Javascript` donnent sur le` site officiel Firebase`:
+Voici le code d'exemple `Javascript` donné sur le site officiel de `Firebase` :
 
 ```javascript
-// Create a connection to your Firebase database
+// Créé une connexion à votre base de données Firebase
 var ref = new Firebase("https://<YOUR-FIREBASE-APP>.firebaseio.com");
-// Save data
+// Enregistre les données
 ref.set({ name: "Alex Wolfe" });
-// Listen for realtime changes
+// Écoute les changements en temps réel
 ref.on("value", function(data) {
     var name = data.val().name;
     alert("My name is " + name);
 });
 ```
 
-Firebase ont une conception de mise à jour en temps réel, de sorte que vous pouvez Remplace la fonction `retreiveMessages` par juste une fonction` updateConversation` nous mettrons à jour le contenu de la conversation et sera appelé dans la méthode `ref.on`, et bien sûr` sendMessage `` utilisera ref.set`.
+Firebase est conçu avec un système de mise à jour en temps réel, de sorte que vous pouvez remplacer la fonction `retreiveMessages` par juste une fonction `updateConversation` qui mettra à jour le contenu de la conversation et sera appelé dans la méthode `ref.on`, et bien sûr `sendMessage` utilisera `ref.set`.
 
 ## Ressources
 
 **REGEX (Expressions Rationelles)**
 
 * <https://en.wikipedia.org/wiki/Regular_expression>!
-* Vous pouvez les vérifier en ligne avec <https://regex101.com/> & <http://regexr.com/>
+* Vous pouvez les tester en ligne avec <https://regex101.com/> & <http://regexr.com/>
 * Et pratiquer un peu ici: <https://www.hackerrank.com/domains/regex/>
 
 **AJAX**
