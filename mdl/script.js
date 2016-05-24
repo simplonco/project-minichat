@@ -11,6 +11,10 @@ $(document).ready(function() {
     });
 
     var sendMessage = function(pseudo, message) {
+
+        // :smile_cat: emoji support
+        message = message.replace(":smile_cat:", "<img src=\"./smile_cat.png\"/>");
+
         myFirebaseRef.push({
             pseudo: pseudo,
             message: message
