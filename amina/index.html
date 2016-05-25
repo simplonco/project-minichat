@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>notifs message</title>
+  <meta charset="utf-8">
+  <script src="js/jquery-2.2.3.js"></script>
+  <script style="text/javascript">
+    $(document).ready(function() {
+      $("#msgUser").focus();
+      $('<audio id="beebAudio"><source type="audio/mpeg" src="notify.mp3">').appendTo('body');
+      $("#sendButton").click(function() {
+        var msg = $("#msgUser").val().trim();
+        $("#msgUser").val('');
+        $("#msgUser").focus();
+        if (msg.length > 0) {
+          $("<li></li>").html('<img src="foto.jpeg" alt="Img1" width="40" height="40"><span>' + msg + '</span>').appendTo("#chatMsg");
+          $("#chatContent").animate({"scrollTop":$("#chatContent").height()},"slow");
+          $("#beebAudio").get(0).play();        }
+      });
+      $("#msgUser").keypress (function(event){
+        if (event.which==13){
+          if ($("#enter").prop("checked")){
+            event.preventDefault();
+            $("#sendButton").click();
+          }
+
+        }
+      })
+    })
+  </script>
+  <style>
+    * {
+      margin: 0 padding: 0
+    }
+
+    body {
+      background-color:#f2f2f2;
+      font-family: "trebuchet MS", sans-serif;
+      font-size: 14px;
+    }
+
+    h1 {
+      text-align: center;
+      text-shadow: 2pxf2f2f2x 3px #ccc;
+      font-size: 42px;
+    }
+
+    #chatBox {
+      width: 600px;
+      height: 300px;
+      border: 10px solid #000;
+      border-radius: 10px;
+      margin: auto;
+      background-image: url(Paris_tour_eiffel.jpg);
+    }
+
+    #chatContent {
+      max-height: 200px;
+      overflow-y: auto;
+      max-width: inherit;
+    }
+
+    #chatMsg {
+      list-style-type: none;
+    }
+
+    #chatMsg > li {
+      padding: 5px;
+      margin: 10px 0px 4px 0px;
+      clear: both;
+    }
+
+    #chatMsg> li> img {
+      float: left;
+      border: 5px solid #fff;
+    }
+
+    #chatMsg> li> span {
+      margin-left: 5px;
+      width: 350px;
+    }
+
+    #msgUser {
+      width: 450px;
+      border: 1px solid #222;
+      padding: 5px;
+      margin: 5px;
+    }
+
+    #sendButton {
+      border: 1px solid #222;
+      padding: 4px;
+      background-color: #3B5998;
+      color: #fff;
+      font-weight: bold;
+    }
+  </style>
+
+</head>
+
+<body>
+  <h1>chat for life</h1>
+  <div id="chatBox">
+    <div id="chatContent">
+      <ul id="chatMsg">
+
+        <li><img src="foto.jpeg" alt="Img1" width="40" height="40"><span>salut mes amis! </span></li>
+        <li><img src="foto.jpeg" alt="Img2" width="40" height="40"><span>comment allez-vous? </span></li>
+
+      </ul>
+    </div>
+
+    <input type="text" id="msgUser" placeholder="entrer votre message" />
+    <input type="button" value="envoyer" id="sendButton">
+    <br/> &nbsp;&nbsp;&nbsp;
+    <input type="checkbox" id="enter">Envoi du message avec la touche"entrée"
+  </div>
+</body>
+
+</html>
