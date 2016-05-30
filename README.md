@@ -4,7 +4,7 @@
 
 The project is a **Chat Web App**, groups will be set _randomly_, you will use [Firebase](https://www.firebase.com/) (a Remote Database based on `AJAX` Technology) and some CSS Preprocessors [Less](http://lesscss.org/) & [Sass](http://sass-lang.com/) !
 
-What you need, is what you already learn : `HTML`, `CSS`, `Bootstrap`, `JS` and `jQUery` !
+What you need, is what you already learn : `HTML`, `CSS`, `Bootstrap`, `JS` and `jQuery` !
 
 First day, you will focus on the UX / UI Design of the app, and write some specifications (few mockup tools <http://mashable.com/2012/06/07/mockup-tools/>).
 
