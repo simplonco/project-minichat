@@ -1,4 +1,4 @@
-# Chat Project
+# MiniChat Project
 
 ![Cutie Cutie <3 !](kitten.jpg)
 
