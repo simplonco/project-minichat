@@ -1,4 +1,4 @@
-# Projet de T'Chat
+# Projet de MiniT'Chat
 
 ![Cutie Cutie <3 !](kitten.jpg)
 
