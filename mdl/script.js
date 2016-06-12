@@ -2,7 +2,12 @@ $(document).ready(function() {
     /* ***** BACKEND ***** */
 
     // Create a connection to your Firebase database
-    var myFirebaseRef = new Firebase("https://project-chat-example.firebaseio.com/");
+    firebase.initializeApp({
+        apiKey: "<GET THIS FROM FIREBASE CONSOLE>",
+        authDomain: "project-chat-example.firebaseapp.com",
+        databaseURL: 'https://project-chat-example.firebaseio.com/'
+    });
+    var myFirebaseRef = firebase.database().ref('/');
 
     // Listen for realtime changes
     myFirebaseRef.on('child_added', function(childSnapshot, prevChildKey) {

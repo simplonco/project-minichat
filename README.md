@@ -2,7 +2,7 @@
 
 ![Cutie Cutie <3 !](kitten.jpg)
 
-The project is a **Chat Web App**, groups will be set _randomly_, you will use [Firebase](https://www.firebase.com/) (a Remote Database based on `AJAX` Technology) and some CSS Preprocessors [Less](http://lesscss.org/) & [Sass](http://sass-lang.com/) !
+The project is a **Chat Web App**, groups will be set _randomly_, you will use [Firebase](https://www.firebase.google.com/) (a Remote Database based on `AJAX` Technology) and some CSS Preprocessors [Less](http://lesscss.org/) & [Sass](http://sass-lang.com/) !
 
 What you need, is what you already learn : `HTML`, `CSS`, `Bootstrap`, `JS` and `jQuery` !
 
@@ -53,7 +53,12 @@ Here is the `Javascript` code example give on the official `Firebase` website:
 
 ```javascript
 // Create a connection to your Firebase database
-var ref = new Firebase("https://<YOUR-FIREBASE-APP>.firebaseio.com");
+firebase.initializeApp({
+    apiKey: "<FIREBASE-API-KEY>",
+    authDomain: "<FIREBASE-DOMAIN>.firebaseapp.com",
+    databaseURL: 'https://<FIREBASE-DOMAIN>.firebaseio.com/'
+});
+var myFirebaseRef = firebase.database().ref('/');
 // Save data
 ref.set({ name: "Alex Wolfe" });
 // Listen for realtime changes
