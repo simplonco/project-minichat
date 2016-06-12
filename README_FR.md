@@ -2,7 +2,7 @@
 
 ![Cutie Cutie <3 !](kitten.jpg)
 
-Le projet est une **application Web de T'Chat**, les groupes seront définis _aléatoirements_, vous allez utiliser [Firebase](https://www.firebase.com/) (une base de données à distance basée sur la technologie `AJAX`) et certains Préprocesseurs CSS : [Less](http://lesscss.org/) & [Sass](http://sass-lang.com/) !
+Le projet est une **application Web de T'Chat**, les groupes seront définis _aléatoirements_, vous allez utiliser [Firebase](https://www.firebase.google.com/) (une base de données à distance basée sur la technologie `AJAX`) et certains Préprocesseurs CSS : [Less](http://lesscss.org/) & [Sass](http://sass-lang.com/) !
 
 Ce dont vous avez besoin, c'est ce que vous avez déjà appris : `HTML`, `CSS`, `Bootstrap`, `JS` et `jQuery` !
 
@@ -53,7 +53,12 @@ Voici le code d'exemple `Javascript` donné sur le site officiel de `Firebase` :
 
 ```javascript
 // Créé une connexion à votre base de données Firebase
-var ref = new Firebase("https://<YOUR-FIREBASE-APP>.firebaseio.com");
+firebase.initializeApp({
+    apiKey: "<FIREBASE-API-KEY>",
+    authDomain: "<FIREBASE-DOMAIN>.firebaseapp.com",
+    databaseURL: 'https://<FIREBASE-DOMAIN>.firebaseio.com/'
+});
+var myFirebaseRef = firebase.database().ref('/');
 // Enregistre les données
 ref.set({ name: "Alex Wolfe" });
 // Écoute les changements en temps réel
