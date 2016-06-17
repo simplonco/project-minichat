@@ -1,7 +1,5 @@
 # Projet de MiniT'Chat
 
-![Cutie Cutie <3 !](kitten.jpg)
-
 Le projet est une **application Web de T'Chat**, les groupes seront définis _aléatoirements_, vous allez utiliser [Firebase](https://www.firebase.google.com/) (une base de données à distance basée sur la technologie `AJAX`) et certains Préprocesseurs CSS : [Less](http://lesscss.org/) & [Sass](http://sass-lang.com/) !
 
 Ce dont vous avez besoin, c'est ce que vous avez déjà appris : `HTML`, `CSS`, `Bootstrap`, `JS` et `jQuery` !
