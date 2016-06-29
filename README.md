@@ -6,7 +6,7 @@ What you need, is what you already learn : `HTML`, `CSS`, `JS` and `jQuery` !
 
 First day, you will focus on the UX / UI Design of the app, and write some specifications (few mockup tools <http://mashable.com/2012/06/07/mockup-tools/>).
 
-And finally you will have the total freedom to use plugins or framework (e.g.: [Bootstrap](http://getbootstrap.com/) or [Foundation](http://foundation.zurb.com/) or [Material Design Light](https://getmdl.io/)).
+And finally you will have the total freedom to use plugins or framework (_e.g.: [Bootstrap](http://getbootstrap.com/) or [Foundation](http://foundation.zurb.com/) or [Material Design Light](https://getmdl.io/)_).
 
 ## Specifications Templates
 
@@ -76,7 +76,7 @@ Firebase have a realtime update design, so you can remplace the `retreiveMessage
 * You can check it online with <https://regex101.com/> & <http://regexr.com/>
 * and practice a bit here: <https://www.hackerrank.com/domains/regex/>
 
-For example: `:smile_cat:` will be replace by `<img src="graphics/emojis/smile_cat.png">`.
+For example: `:smile_cat:` will be replace by `<img src="graphics/emojis/smile_cat.png" />`.
 
 **AJAX**
 
