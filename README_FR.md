@@ -6,7 +6,7 @@ Ce dont vous avez besoin, c'est ce que vous avez déjà appris : `HTML`, `CSS`, 
 
 Le premier jour, vous aller vous concentrer sur l'interface et l'expérience utilisateur de l'application, et écrire un cahier des charges / spécifications fonctionnelles (quelques outils pour créer vos mockups <http://mashable.com/2012/06/07/mockup-tools/>).
 
-Et enfin, vous aurez la liberté totale d'utiliser des plugins ou frameworks (ex : [Bootstrap](http://getbootstrap.com/) ou [Foundation](http://foundation.zurb.com/) ou [Material Design Light](https://getmdl.io/)).
+Et enfin, vous aurez la liberté totale d'utiliser des plugins ou frameworks (_ex : [Bootstrap](http://getbootstrap.com/) ou [Foundation](http://foundation.zurb.com/) ou [Material Design Light](https://getmdl.io/)_).
 
 ## Spécifications fonctionnelles
 
@@ -76,7 +76,7 @@ Firebase est conçu avec un système de mise à jour en temps réel, de sorte qu
 * Vous pouvez les tester en ligne avec <https://regex101.com/> & <http://regexr.com/>
 * Et pratiquer un peu ici: <https://www.hackerrank.com/domains/regex/>
 
-Par exemple : `:smile_cat:` va être remplacer par `<img src="graphics/emojis/smile_cat.png">`.
+Par exemple : `:smile_cat:` va être remplacer par `<img src="graphics/emojis/smile_cat.png" />`.
 
 **AJAX**
 
