@@ -1,10 +1,10 @@
 # MiniChat Project
 
-The project is a **Chat Web App**, groups will be set _randomly_, you will use [Firebase](https://www.firebase.google.com/) (a Remote Database based on `AJAX` Technology) and some CSS Preprocessors [Less](http://lesscss.org/) & [Sass](http://sass-lang.com/) !
+The project is a **Chat Web App**; groups will be set _randomly_, you will use [Firebase](https://www.firebase.google.com/) (a Remote Database based on `AJAX` Technology) and some CSS Preprocessors [Less](http://lesscss.org/) & [Sass](http://sass-lang.com/) !
 
-What you need, is what you already learn : `HTML`, `CSS`, `JS` and `jQuery` !
+What you need is what you have already learned : `HTML`, `CSS`, `JS` and `jQuery` !
 
-First day, you will focus on the UX / UI Design of the app, and write some specifications (few mockup tools <http://mashable.com/2012/06/07/mockup-tools/>).
+On the first day you will focus on the UX / UI Design of the app, and write some specifications (few mockup tools <http://mashable.com/2012/06/07/mockup-tools/>).
 
 And finally you will have the total freedom to use plugins or framework (_e.g.: [Bootstrap](http://getbootstrap.com/) or [Foundation](http://foundation.zurb.com/) or [Material Design Light](https://getmdl.io/)_).
 
@@ -15,18 +15,18 @@ And finally you will have the total freedom to use plugins or framework (_e.g.: 
 
 ## Features
 
-That's a chat, you have to let people discuss together, of course:
+It's a chat, so you have to let people discuss together, of course:
 
-* First make one big global channel, and after allow other channels like private discussions ;
-* Let users choose a pseudo and maybe defined an avatar (check [Gravatar](https://fr.gravatar.com/)) ;
+* First, make one big global channel, and after allow other channels like private discussions ;
+* Let users choose a pseudonym and maybe choose an avatar (check [Gravatar](https://fr.gravatar.com/)) ;
 * Let people send Emoji Smiley, Links, Pictures, Youtube Videos, User Tags, etc.. (you will use `REGEX`) ;
-* Make everything looks great (with a lot of `CSS`) and don't forget the app have to be responsive, think about how it will look on mobile devices!
+* Make everything looks great (with a lot of `CSS`) and don't forget the app has to be responsive—think about how it will look on mobile devices!
 
 ## Design
 
-Here few advices and tricks to help you to work together on the same project code.
+Here's some advice and a few tricks to help you to work together on the same project code.
 
-First work with whole team on global design, next split the team, between for example Backend and Frontend developers, the good idea is to use demo function, e.g.:
+First, work with the whole team on global design; next, split the team between, for example, Backend and Frontend developers. A good idea is to use a demo function, e.g.:
 
 ```javascript
 /* DEMO FUNCTIONS */
@@ -45,9 +45,9 @@ var retreiveMessages = function () {
 };
 ```
 
-The purpose is to start to code the interface and test using these functions and **in the same time** an other member of the team can work on the function to make them work with real data.
+The purpose is to start to code the interface and test using these functions and **at the same time** another member of the team can work on the function to make them work with real data.
 
-Here is the `Javascript` code example give on the official `Firebase` website:
+Here is the `Javascript` code example given on the official `Firebase` website:
 
 ```javascript
 // Create a connection to your Firebase database
@@ -66,7 +66,7 @@ ref.on("value", function(data) {
 });
 ```
 
-Firebase have a realtime update design, so you can remplace the `retreiveMessages` function by just an `updateConversation` function we will update the content of the conversation and will be call in the `ref.on` method, and of course `sendMessage` will use `ref.set`.
+Firebase has a realtime update design, so you can replace the `retreiveMessages` function with just an `updateConversation` function that will update the content of the conversation and will be called in the `ref.on` method, and of course `sendMessage` will use `ref.set`.
 
 ## Ressources
 
@@ -76,7 +76,7 @@ Firebase have a realtime update design, so you can remplace the `retreiveMessage
 * You can check it online with <https://regex101.com/> & <http://regexr.com/>
 * and practice a bit here: <https://www.hackerrank.com/domains/regex/>
 
-For example: `:smile_cat:` will be replace by `<img src="graphics/emojis/smile_cat.png" />`.
+For example: `:smile_cat:` will be replaced by `<img src="graphics/emojis/smile_cat.png" />`.
 
 **AJAX**
 
