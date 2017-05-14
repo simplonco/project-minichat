@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+    <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <link rel='stylesheet' type='text/css' href='/resources/tutorial/css/example.css'>
+    <script>
+        $(document).ready(function() {
+            var str = "       Hello in life chat enter your name and start       ";
+            alert(str.trim());
+            var myDataRef = new Firebase('https://dazzling-fire-5999.firebaseio.com/');
+            $('#messageInput').keypress(function(e) {
+                if (e.keyCode == 13) {
+                    var name = $('#nameInput').val();
+                    var text = $('#messageInput').val();
+                    myDataRef.push({
+                        name: name,
+                        text: text
+                    });
+                    $('#messageInput').val('');
+                }
+            });
+            $('<audio id="beebAudio"><source type="audio/mpeg" src="notify.mp3">').appendTo('body');
+            myDataRef.on('child_added', function(snapshot) {
+                var message = snapshot.val();
+                displayChatMessage(message.name, message.text);
+            });
+
+            function displayChatMessage(name, text) {
+                $('<div/>').text(text).prepend($('<em/>').text(name + ': ')).appendTo($('#chatContent'));
+                $('#chatContent')[0].scrollTop = $('#chatContent')[0].scrollHeight;
+                $("#beebAudio")[0].play();
+            };
+        })
+    </script>
+    <style>
+        * {
+            margin: 0 padding: 0
+        }
+
+        body {
+            background-color: #f2f2f2;
+            font-family: "trebuchet MS", sans-serif;
+            font-size: 14px;
+        }
+
+        h1 {
+            text-align: center;
+            text-shadow: 2pxf2f2f2x 3px #ccc;
+            font-size: 42px;
+        }
+
+        #messagesDiv {
+            width: 720px;
+            border: 1px solid #000;
+            height: 500px;
+            border-radius: 5px;
+            margin: auto;
+            background-color: #CCC;
+        }
+
+        #nameInput {
+            width: 250px;
+            border: 1px solid #222;
+            padding-bottom: 5px;
+            margin: 5px;
+        }
+
+        #messageInput {
+            width: 250px;
+            border: 1px solid #222;
+            padding-bottom: 5px;
+            margin: 5px;
+        }
+
+        #chatContent {
+            max-height: 400px;
+            overflow-y: auto;
+            max-width: inherit;
+        }
+    </style>
+</head>
+<body>
+    <h1>chat for life</h1>
+    <div id='messagesDiv'>
+        <div id="chatContent"></div>
+        <input type='text' id='nameInput' placeholder='Name'>
+        <input type='text' id='messageInput' placeholder='Message'>
+    </div>
+</body>
+</html>
